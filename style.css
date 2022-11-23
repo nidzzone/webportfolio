@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	font-family: 'DM-sans', sans-serif;
+	text-align: center;
+}
+/*body{
+	background-image: url(images/nidz.jpg);
+	background-repeat:no-repeat, repeat;
+}*/
+
+/*.bg-img{
+	background-image: url(images/nidz.jpg);
+	background-size: contain;
+	background-repeat:no-repeat;
+	height: 70vh;
+	width: 100vw;
+	text-align: center;
+}*/
+
+/*#pic{
+	border-radius: 50%;
+	margin-left: 620px;
+	z-index: 999;
+}*/
+
+/*#name{
+	text-align: center;
+}
+
+#stack{
+	text-align: center;*/
+}
+/*#abou{
+	font-size: 20px;
+	text-align: center;
+	margin-left: 450px;*/
+}
+#bg-image{
+	z-index: 5;
+	background-image: url(https://img.freepik.com/free-photo/data-technology-blue-background-with-hacker-remixed-media_53876-108534.jpg?w=900&t=st=1669201012~exp=1669201612~hmac=6a2e7e3493cab6a0bfb9994840e7895a20940b4e32759ecd5b7e97b09d1c49a9);
+	width:  99vw;
+	height: 81.5vh;
+	background-size: 100rem;
+	background-repeat: no-repeat;
+	
+	
+	
+}
+
+#bh{
+	z-index: 2;
+	opacity: 1;
+
+}
+#bb{
+	z-index: 5;
+}
+
+#h{
+	border-bottom: 1px solid white;
+}
+
+
+#cham{
+	background-color: #77ccff;
+}
+
+/*#contact{
+	background-color: #55aaff;
+}*/
+
+
+#hht{
+	background-color: #55aaff;
+	padding: 10px;
+	border-radius: 20px;
+	color: white;
+	font-weight: 600;
+}
+
+#msgg{
+	resize: none;
+}
+
+
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
+}
