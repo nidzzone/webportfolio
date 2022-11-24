@@ -41,25 +41,59 @@ body{
 	text-align: center;
 	margin-left: 450px;*/
 }
+
+
+
 #bg-image{
-	z-index: 5;
-	background-image: url(https://img.freepik.com/free-photo/data-technology-blue-background-with-hacker-remixed-media_53876-108534.jpg?w=900&t=st=1669201012~exp=1669201612~hmac=6a2e7e3493cab6a0bfb9994840e7895a20940b4e32759ecd5b7e97b09d1c49a9);
-	width:  99vw;
-	height: 81.5vh;
-	background-size: 100rem;
-	background-repeat: no-repeat;
-	
-	
-	
+	background-image: url(background-image: url(https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg);
+	position: absolute;
+	height: 500px;
 }
+
 
 #bh{
-	z-index: 2;
+	background-image: url(https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?w=900&t=st=1669207733~exp=1669208333~hmac=fb7cf569f81ef8e9f73c423be5f51c176ccf6cb4a609fed38c93b5e9e77dc448);
 	opacity: 1;
+	background-size: cover;
+	
 
 }
+
+#pic{
+	z-index: 1;
+	position: relative;
+}
+
+.banner::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #007bff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	z-index: 0;
+
+}
+
+
+
+.banner > *{
+	z-index: 10;
+	position: relative;
+}
+
+.banner{
+	position: relative;
+}
+
 #bb{
-	z-index: 5;
+	background-image: url(https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?w=900&t=st=1669207733~exp=1669208333~hmac=fb7cf569f81ef8e9f73c423be5f51c176ccf6cb4a609fed38c93b5e9e77dc448);
+	background-size: cover;
+	opacity: 1;
+	
 }
 
 #h{
@@ -76,6 +110,8 @@ body{
 }*/
 
 
+
+
 #hht{
 	background-color: #55aaff;
 	padding: 10px;
@@ -83,6 +119,8 @@ body{
 	color: white;
 	font-weight: 600;
 }
+
+
 
 #msgg{
 	resize: none;
